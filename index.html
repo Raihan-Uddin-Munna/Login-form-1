@@ -5,6 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login-form-1</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .btn-1>a {
+            text-decoration: none;
+            color: white;
+            font-size: x-large;
+            padding-top: 20px;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,21 +27,144 @@
 
 
     <main>
-        <section>
-            <div class="btn-1">
-                <a href="">Home</a>
-                <a href="">Profile</a>
-                <a href="">Blog</a>
-                <a href="">About</a>
+
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Login-Pratice</title>
+            <style>
+                nav {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                nav a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: x-large;
+                    padding-top: 20px;
+                }
+
+                .home-btn {
+                    width: 40%;
+                    display: flex;
+                    justify-content: space-around;
+
+                }
+
+                .home-btn-2 {
+                    width: 20%;
+                    display: flex;
+                    justify-content: space-around;
+                    padding-right: 50px;
+                    color: white;
+                }
+
+                .Login-form {
+                    display: flex;
+                    flex-direction: column;
+                    border: 3px solid;
+                    padding: 20px;
+                    width: 30%;
+
+                }
+
+                .Login-form-container {
+                    /* border: 2px solid blue; */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 80vh;
+
+
+
+                }
+
+                .Login-form input {
+                    margin-top: 20px;
+                    padding-left: 10px;
+                    height: 30px;
+                    font-size: larger;
+                }
+
+                .input-fild {
+                    border-radius: 10px;
+                    background: transparent;
+                    color: white;
+                    
+                    border: 2px solid rgb(251, 248, 248);
+                    font-size: 18px;
+                }
+
+
+
+                .please-login {
+                    display: flex;
+                    justify-content: center;
+                    color: white;
+                }
+
+                .container {
+                    background-image: url("./Assets/Images/background-images.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                .new-user {
+                    display: flex;
+                    justify-content: flex-start;
+                    font-size: x-large;
+                    color: white;
+                    margin-left: 10px;
+                }
+
+                .new-user a {
+                    color: white;
+                    margin-top: 30px;
+                    margin-left: 15px;
+
+                }
+            </style>
+        </head>
+
+        <body class="container">
+            <nav>
+                <div class="home-btn">
+                    <a href="">Home</a>
+                    <a href="">Profile</a>
+                    <a href="">Blog</a>
+                    <a href="">About</a>
+                </div>
+                <div class="home-btn-2">
+                    <a href="">Create</a>
+                    <a href="">Sign in</a>
+                </div>
+            </nav>
+
+            <div class="Login-form-container">
+                <form class="Login-form">
+                    <h1 class="please-login">Please Login</h1>
+                    <input class="input-fild" type="email" required name="" placeholder="Your Email" id="">
+                    <input class="input-fild" type="password" required name="" placeholder="Your password" id="">
+                    <input class="input-fild" type="button" value="Sign in">
+                    <div class="new-user">
+                        <h4>New User:</h4>
+                        <a href="">create</a>
+                    </div>
+                </form>
             </div>
-            <div class="btn-2">
-                <a href="">Sign up</a>
-                <a href="">Sign in</a>
-            </div>
+
+
+        </body>
+
+        </html>
 
 
 
-        </section>
+
     </main>
 
     <footer></footer>
